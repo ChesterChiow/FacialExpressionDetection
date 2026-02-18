@@ -1,0 +1,30 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# --------------------------
+# Virtual Environment
+# --------------------------
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# --------------------------
+# Streamlit / App caches
+# --------------------------
+.streamlit/
+*.lock
+.cache/
