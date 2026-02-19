@@ -11,7 +11,7 @@ st.title("Face Emotion Recognition")
 # ------------------------------
 @st.cache_resource
 def load_model():
-    from model.cnn import CNN
+    from model import CNN
     model = CNN()
     model.load_state_dict(
         torch.load("checkpoints/model_cnn_bs64_lr0.001_epoch52.pt", map_location="cpu")
@@ -66,7 +66,7 @@ elif uploaded_file:
     image = Image.open(uploaded_file)
 
 # ------------------------------
-# 5️⃣ Process and predict
+# Process and predict
 # ------------------------------
 if image:
     with st.spinner("Enhancing image, detecting face, and predicting..."):
@@ -93,3 +93,11 @@ if image:
 
             predicted_emotion = emotion_labels[prediction]
             st.success(f"Prediction: {predicted_emotion}")
+
+
+
+# TODO
+# 1. Proprocess val and test data also
+# 2. migrate over to vscode
+# 3. write read me
+# 4. deployment
