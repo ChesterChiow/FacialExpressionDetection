@@ -1,7 +1,7 @@
 
-# Facial Expression Recognition
+# Face Emotion Recognition
 
-This project provides a reproducible pipeline for facial expression recognition: dataset preparation, model training, evaluation, and a simple web UI for inference. The system detects faces in input images, preprocesses the detected face regions, and classifies the expression using a trained CNN. A public deployment of this application is available here: [Face Emotion Recognition App](https://facialexpressiondetection-yxzm4mgejhpplpwyn8pxuk.streamlit.app/)
+This project provides a reproducible pipeline for facial expression recognition: dataset preparation, model training, evaluation, and a simple web UI for inference. The system detects faces in input images, preprocesses the detected face regions, and classifies the expression using a trained CNN. A public deployment of this application is available here: [Face Emotion Recognition](https://facialexpressiondetection-yxzm4mgejhpplpwyn8pxuk.streamlit.app/)
 
 
 ## Setup
